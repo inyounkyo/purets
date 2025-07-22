@@ -59,7 +59,7 @@ let xx: Fish = {
     console.log("FishFishFishFish");
   },
 };
-console.log(isFish(xx));
+//console.log(isFish(xx));
 function getFood(pet: Fish | Bird) {
   if (isFish(pet)) {
     pet;
@@ -107,3 +107,8 @@ function getArea(shape: Shape) {
       return _defaultforshape;
   }
 }
+
+let c: Shape = { kind: "circle", radius: 222 };
+let r: Shape = { kind: "rectangle", lenght: 22, width: 20 };
+getArea(c);
+getArea(r);

@@ -44,7 +44,7 @@ let xx = {
         console.log("FishFishFishFish");
     },
 };
-console.log(isFish(xx));
+//console.log(isFish(xx));
 function getFood(pet) {
     if (isFish(pet)) {
         pet;
@@ -73,3 +73,7 @@ function getArea(shape) {
             return _defaultforshape;
     }
 }
+let c = { kind: "circle", radius: 222 };
+let r = { kind: "rectangle", lenght: 22, width: 20 };
+getArea(c);
+getArea(r);
